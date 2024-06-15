@@ -1,5 +1,7 @@
 package testCases;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 
 import org.testng.Assert;
@@ -27,13 +29,13 @@ public class TC_LoginTest_001 extends BaseClass{
 		
 		//  HomePage
 		if(driver.getTitle().equals("Guru99 Bank Manager HomePage")) {
-			Assert.assertTrue(true);
+			AssertJUnit.assertTrue(true);
 			logger.info("Title matched");
 			
 		}
 		else {
 			captureScreen(driver, "loginTest");
-			Assert.assertTrue(false);
+			AssertJUnit.assertTrue(false);
 			logger.info("title not matched");
 			
 		}
