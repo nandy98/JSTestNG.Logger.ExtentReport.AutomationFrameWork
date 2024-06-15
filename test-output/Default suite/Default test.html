@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jun 04 09:47:03 IST 2024</td>
+<td>Started on:</td><td>Thu Jun 06 14:37:55 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>7 seconds (7910 ms)</td>
+<tr><td>Total time:</td><td>8 seconds (8433 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,15 +76,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC_LoginTest_001.loginTest()'><b>loginTest</b><br>Test class: testCases.TC_LoginTest_001</td>
-<td><div><pre>java.lang.IllegalArgumentException: Parameter &apos;srcDir&apos; is not a directory: &apos;C:\Users\NANDLA~1.YAD\AppData\Local\Temp\screenshot7849422340289113446.png&apos;
-	at org.apache.commons.io.FileUtils.requireDirectoryExists(FileUtils.java:2789)
-	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:711)
-	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:657)
-	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:556)
-	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:527)
-	at testCases.BaseClass.captureScreen(BaseClass.java:74)
-	at testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:35)
+<td title='testCases.TC_LoginTest_002.loginAlertTest()'><b>loginAlertTest</b><br>Test class: testCases.TC_LoginTest_002</td>
+<td><div><pre>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.sendKeys(Unknown Source)
+	at pageObjects.LoginPage.setUserName(LoginPage.java:35)
+	at testCases.TC_LoginTest_002.loginAlertTest(TC_LoginTest_002.java:16)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -113,15 +115,17 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace245220560", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace245220560'><pre>java.lang.IllegalArgumentException: Parameter &apos;srcDir&apos; is not a directory: &apos;C:\Users\NANDLA~1.YAD\AppData\Local\Temp\screenshot7849422340289113446.png&apos;
-	at org.apache.commons.io.FileUtils.requireDirectoryExists(FileUtils.java:2789)
-	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:711)
-	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:657)
-	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:556)
-	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:527)
-	at testCases.BaseClass.captureScreen(BaseClass.java:74)
-	at testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:35)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1066575950", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1066575950'><pre>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.sendKeys(Unknown Source)
+	at pageObjects.LoginPage.setUserName(LoginPage.java:35)
+	at testCases.TC_LoginTest_002.loginAlertTest(TC_LoginTest_002.java:16)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -151,8 +155,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>4</td>
-<td>testCases.TC_LoginTest_001@177bea38</td></tr>
+<td>3</td>
+<td>testCases.TC_LoginTest_002@177bea38</td></tr>
 </table><p>
 </body>
 </html>

@@ -57,6 +57,8 @@ public class BaseClass {
 		logger = LogManager.getLogger(getClass());
 		logger.info("Driver Launched");
 		test = extent.createTest("Driver Launched");
+		
+		driver.manage().window().maximize();
 		}
 	
 	@AfterClass
